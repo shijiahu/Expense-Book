@@ -7,6 +7,8 @@ target 'Expense' do
 
   # Pods for Expense
 	pod 'SWRevealViewController'
+	pod "SwiftChart"
+	pod 'SwiftCharts', '~> 0.2'
 
   target 'ExpenseTests' do
     inherit! :search_paths

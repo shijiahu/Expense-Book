@@ -14,6 +14,11 @@
 		B7267FED203D42B50029C561 /* BillController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7267FEC203D42B50029C561 /* BillController.swift */; };
 		B7267FEF203DF42A0029C561 /* AddExpenseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7267FEE203DF42A0029C561 /* AddExpenseController.swift */; };
 		B7267FF1203DFB850029C561 /* addItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7267FF0203DFB850029C561 /* addItemViewController.swift */; };
+		B75C50F8204E43F30057301E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B75C50F1204E43F20057301E /* ViewController.m */; };
+		B75C50F9204E43F30057301E /* MJPopupBackgroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = B75C50F3204E43F20057301E /* MJPopupBackgroundView.m */; };
+		B75C50FA204E43F30057301E /* UIViewController+MJPopupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B75C50F4204E43F20057301E /* UIViewController+MJPopupViewController.m */; };
+		B75C50FB204E43F30057301E /* MJDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B75C50F5204E43F20057301E /* MJDetailViewController.xib */; };
+		B75C50FC204E43F30057301E /* MJDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B75C50F7204E43F30057301E /* MJDetailViewController.m */; };
 		B792BA40203C95600078ECC4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B792BA3F203C95600078ECC4 /* AppDelegate.swift */; };
 		B792BA42203C95600078ECC4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B792BA41203C95600078ECC4 /* ViewController.swift */; };
 		B792BA45203C95600078ECC4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B792BA43203C95600078ECC4 /* Main.storyboard */; };
@@ -60,6 +65,15 @@
 		B7267FEC203D42B50029C561 /* BillController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BillController.swift; sourceTree = "<group>"; };
 		B7267FEE203DF42A0029C561 /* AddExpenseController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddExpenseController.swift; sourceTree = "<group>"; };
 		B7267FF0203DFB850029C561 /* addItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addItemViewController.swift; sourceTree = "<group>"; };
+		B75C50EF204E43F10057301E /* MJDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJDetailViewController.h; sourceTree = "<group>"; };
+		B75C50F0204E43F20057301E /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B75C50F1204E43F20057301E /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B75C50F2204E43F20057301E /* MJPopupBackgroundView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJPopupBackgroundView.h; sourceTree = "<group>"; };
+		B75C50F3204E43F20057301E /* MJPopupBackgroundView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJPopupBackgroundView.m; sourceTree = "<group>"; };
+		B75C50F4204E43F20057301E /* UIViewController+MJPopupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+MJPopupViewController.m"; sourceTree = "<group>"; };
+		B75C50F5204E43F20057301E /* MJDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MJDetailViewController.xib; sourceTree = "<group>"; };
+		B75C50F6204E43F30057301E /* UIViewController+MJPopupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+MJPopupViewController.h"; sourceTree = "<group>"; };
+		B75C50F7204E43F30057301E /* MJDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJDetailViewController.m; sourceTree = "<group>"; };
 		B792BA3C203C95600078ECC4 /* Expense.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Expense.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B792BA3F203C95600078ECC4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B792BA41203C95600078ECC4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -146,6 +160,15 @@
 			isa = PBXGroup;
 			children = (
 				B792BA3F203C95600078ECC4 /* AppDelegate.swift */,
+				B75C50EF204E43F10057301E /* MJDetailViewController.h */,
+				B75C50F7204E43F30057301E /* MJDetailViewController.m */,
+				B75C50F5204E43F20057301E /* MJDetailViewController.xib */,
+				B75C50F2204E43F20057301E /* MJPopupBackgroundView.h */,
+				B75C50F3204E43F20057301E /* MJPopupBackgroundView.m */,
+				B75C50F6204E43F30057301E /* UIViewController+MJPopupViewController.h */,
+				B75C50F4204E43F20057301E /* UIViewController+MJPopupViewController.m */,
+				B75C50F0204E43F20057301E /* ViewController.h */,
+				B75C50F1204E43F20057301E /* ViewController.m */,
 				B792BA41203C95600078ECC4 /* ViewController.swift */,
 				B792BA94203D1FAF0078ECC4 /* Assets.xcassets */,
 				B792BA43203C95600078ECC4 /* Main.storyboard */,
@@ -314,6 +337,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B75C50FB204E43F30057301E /* MJDetailViewController.xib in Resources */,
 				B792BA4A203C95600078ECC4 /* LaunchScreen.storyboard in Resources */,
 				B792BA95203D1FAF0078ECC4 /* Assets.xcassets in Resources */,
 				B792BA45203C95600078ECC4 /* Main.storyboard in Resources */,
@@ -393,10 +417,14 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-Expense/Pods-Expense-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/SWRevealViewController/SWRevealViewController.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftChart/SwiftChart.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftCharts/SwiftCharts.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SWRevealViewController.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftChart.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftCharts.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -497,9 +525,13 @@
 				B792BA9D203D3DB00078ECC4 /* NetWorthController.swift in Sources */,
 				B7267FE9203D40DE0029C561 /* AccountController.swift in Sources */,
 				B792BA42203C95600078ECC4 /* ViewController.swift in Sources */,
+				B75C50F9204E43F30057301E /* MJPopupBackgroundView.m in Sources */,
+				B75C50F8204E43F30057301E /* ViewController.m in Sources */,
 				B7267FEB203D414D0029C561 /* BudgetController.swift in Sources */,
 				B7267FED203D42B50029C561 /* BillController.swift in Sources */,
 				B792BA93203D16950078ECC4 /* MenuController.swift in Sources */,
+				B75C50FA204E43F30057301E /* UIViewController+MJPopupViewController.m in Sources */,
+				B75C50FC204E43F30057301E /* MJDetailViewController.m in Sources */,
 				B792BA9B203D3CD80078ECC4 /* CashFlowController.swift in Sources */,
 				B792BA40203C95600078ECC4 /* AppDelegate.swift in Sources */,
 				B7267FEF203DF42A0029C561 /* AddExpenseController.swift in Sources */,

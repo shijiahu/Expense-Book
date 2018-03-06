@@ -1,12 +1,18 @@
 PODS:
+  - SwiftChart (1.0.1)
+  - SwiftCharts (0.6.1)
   - SWRevealViewController (2.3.0)
 
 DEPENDENCIES:
+  - SwiftChart
+  - SwiftCharts (~> 0.2)
   - SWRevealViewController
 
 SPEC CHECKSUMS:
+  SwiftChart: ba767a678d568a5ee22d419e146a0582865e1aff
+  SwiftCharts: 77378d6cf667e95f9c79a745b6778e66eed5339c
   SWRevealViewController: 6d3fd97f70112fd7cef9de14df4260eacce4c63a
 
-PODFILE CHECKSUM: 1e88dc28efa67d103bec13e9947189232046f970
+PODFILE CHECKSUM: 17cb9e46170c4d7731d4b524ef8c28077e8ac9b8
 
 COCOAPODS: 1.4.0
